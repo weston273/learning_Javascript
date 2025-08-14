@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+
+}
+#ageTextbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#ageLabel{
+    font-weight: bold;
+    text-align: center;
+    font-size : 2em;
+    display: block; 
+    /* use display block so the label can take up the full width of the page, this wil allow for the text to be centered */
+}
+
+#submitBtn{
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+    transition: background-color ease 0.25s color ease-in-out 0.25s;
+}
+
+#submitBtn:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: blue;
+}
+
+#ageTextbox{
+    margin: 0 auto;
+    display: block;
+
+}
+
+p {
+    text-align: center;
+}
+

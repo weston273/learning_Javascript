@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <!-- text input for name -->
+         <p id="nameP">What is your name?</p>
+        <label for="nameTextBox" id="nameLabel">Name</label>
+        <input type="text" id="nameTextBox">
+        <div class="radioBtnContainer">
+            <p> Which size of pizza do you want?</p> 
+            <input type="radio" id="smallSize"name="pizzaSize"> 
+            <label for="smallSize">small</label><br>
+            <input type="radio" id="mediumSize" name="pizzaSize"> 
+            <label for="mediumSize">medium</label> <br>
+            <input type="radio" id="largeSize" name="pizzaSize"> 
+            <label for="largeSize">Large</label> <br>
+        </div>
+        <div class="checkBoxContainer">
+            <p>Select toppings for your pizza</p>
+            <input type="checkbox" id="cheeseCheckBox" name="pizzaToppings" value="cheese">
+            <label for="cheeseCheckBox">cheese</label>
+            <input type="checkbox" id="pepperoniCheckBox" name="pizzaToppings" value="pepperoni">
+            <label for="pepperoniCheckBox">pepperoni</label>
+            <input type="checkbox" id="mushroomsCheckBox" name="pizzaToppings" value="mushrooms">
+            <label for="mushroomsCheckBox">mushrooms</label>
+        </div><br>
+        <div class="btnContainer"> 
+            <button id="submitButton">Submit</button>
+        </div>
+        <div class="displayContainer">
+            <h1 id="orderDisplayName" ></h1>
+            <h1 id="orderDisplay"></h1>
+            <h1 id="orderDisplay2"></h1>
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
